@@ -13,10 +13,10 @@ type Key
 fromCode : Int -> Key
 fromCode keyCode =
     case keyCode of
-        24 ->
+        38 ->
             ArrowUp
-            
-        25 ->
+
+        40 ->
             ArrowDown
 
         32 ->
